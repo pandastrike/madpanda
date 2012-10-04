@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "irc": "0.3.4"
+    "irc": "0.3.4",
+    "github": "3.0.0"
   },
   "license": "BSD"
 }

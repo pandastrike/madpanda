@@ -9,10 +9,10 @@ This is a simple IRC bot, which will hopefully become increasingly useful and en
 
 To install and run:
 
-  git clone git@github.com:dyoder/madpanda.git
-  cd madpanda
-  npm install
-  bin/madpanda
+    git clone git@github.com:dyoder/madpanda.git
+    cd madpanda
+    npm install
+    bin/madpanda
   
 All the interesting source is in `index.coffee`. The Eliza code is adapted from [aeter/eliza-coffee][].
 

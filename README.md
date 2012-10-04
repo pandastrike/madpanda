@@ -12,6 +12,10 @@ To install and run:
     git clone git@github.com:dyoder/madpanda.git
     cd madpanda
     npm install
+    cp example.config.coffee config.coffee
+    
+You'll want to edit config.coffee and put your server password in. Then you're set to run it:
+
     bin/madpanda
   
 All the interesting source is in `index.coffee`. The Eliza code is adapted from [aeter/eliza-coffee][].

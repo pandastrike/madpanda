@@ -1,9 +1,17 @@
 module.exports =
+  
   run: -> 
+  
+    {inspect} = require "util"
+
     {Client} = require("irc")
+
     GitHub = require "github"
     github = new GitHub version: "3.0.0"
-    {inspect} = require "util"
+
+    config = require "./config"
+    {host,password,nick} = config.server
+    
     eliza = require "./eliza"
 
     last_commit = (callback)->
@@ -18,9 +26,7 @@ module.exports =
       
     ch = (name) -> "##{name}"
 
-    client = new Client "irc.linelinc.com", "MADPANDA"
-      password: "enterthedragon"
-      debug: true
+    client = new Client host, nick, password: password, debug: true
 
     say = (message) ->
       client.say (ch "pandastrike"), message

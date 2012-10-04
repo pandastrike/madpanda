@@ -4,6 +4,7 @@ module.exports =
     GitHub = require "github"
     github = new GitHub version: "3.0.0"
     {inspect} = require "util"
+    eliza = require "./eliza"
 
     last_commit = (callback)->
       github.repos.getCommits
@@ -44,4 +45,5 @@ module.exports =
             else
               say "DUMBASS PROGRAMMER MESSED UP SOMETHING!"
         else
-          say "HOW DARE YOU WASTE MY TIME WITH SUCH FOOLISHNESS!"
+          say eliza.reply text
+          #say "HOW DARE YOU WASTE MY TIME WITH SUCH FOOLISHNESS!"

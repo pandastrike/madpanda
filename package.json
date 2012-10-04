@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "irc": "0.3.4",
-    "github": "3.0.0"
+    "github": "0.1.6"
   },
   "license": "BSD"
 }

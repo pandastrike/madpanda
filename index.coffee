@@ -1,3 +1,6 @@
+twss = require "twss"
+twss.threshold = 0.9
+
 module.exports =
   
   # Everything is in this run function, which is called from bin/madpanda ...
@@ -71,7 +74,9 @@ module.exports =
       
       # You talkin' to me? (This triple slash business allows you to do
       # interpolation in regexps in CoffeeScript.)      
-      if text.match ///^#{nick}///
+      if twss.is(text)
+        say "That's what she said"
+      else if text.match ///^#{nick}///
         
         # MADPANDA doesn't like small talk!
         if text.match /weather/

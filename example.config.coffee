@@ -1,6 +1,7 @@
-module.exports = 
+module.exports =
   server:
-    host: "irc.linelinc.com"
+    host: "irc.pandastrike.com"
     nick: "MADPANDA"
-    password: "PASSWORD"
-  
+    password: "barbedwirefence"
+  channel:
+    name: "panda-notwork"

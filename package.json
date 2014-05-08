@@ -1,14 +1,14 @@
 {
   "name": "madpanda",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "irc": "0.3.4",
-    "twss": "0.1.x",
-    "github": "0.1.6"
+    "node-system": "0.0.4",
+    "scoped-http-client": "^0.9.8",
+    "irc": "^0.3.6"
   },
   "license": "BSD"
 }

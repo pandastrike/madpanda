@@ -4,12 +4,12 @@ This is a simple IRC bot, which will hopefully become increasingly useful and en
 * The ability to act as a therapist, ala [Eliza][].
 * A tendency to get ornery when asked about the weather.
 
-[patchboard]: https://github.com/automatthew/patchboard
+[patchboard]: https://github.com/pandastrike/patchboard
 [Eliza]: http://en.wikipedia.org/wiki/ELIZA
 
 To install and run:
 
-    git clone git@github.com:dyoder/madpanda.git
+    git clone git@github.com:pandastrike/madpanda.git
     cd madpanda
     npm install
     cp example.config.coffee config.coffee

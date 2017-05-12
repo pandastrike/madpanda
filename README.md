@@ -1,5 +1,7 @@
 This is a simple IRC bot, which will hopefully become increasingly useful and entertaining. Presently, the features include:
 
+> **Important** This project is deprecated and unsupported.
+
 * The ability to report on the last commit to the [patchboard][] project if you ask about it.
 * The ability to act as a therapist, ala [Eliza][].
 * A tendency to get ornery when asked about the weather.
